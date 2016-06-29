@@ -1,20 +1,21 @@
+import java.util.ArrayList;
 /**
  * Store details of club memberships.
  * 
  * @author (your name) 
  * @version (a version number or a date)
+ * ------------- clase Club, representa un club deportivo que tiene una colección de socios--------------------------------------
  */
 public class Club
 {
-    // Define any necessary fields here ...
+    public ArrayList<Membership> socios;
     
     /**
      * Constructor for objects of class Club
      */
     public Club()
     {
-        // Initialise any fields here ...
-        
+       socios = new ArrayList<>();
     }
 
     /**
@@ -23,6 +24,7 @@ public class Club
      */
     public void join(Membership member)
     {
+        socios.add(member);
     }
 
     /**
@@ -31,6 +33,6 @@ public class Club
      */
     public int numberOfMembers()
     {
-        return 0;
+        return socios.size();
     }
 }

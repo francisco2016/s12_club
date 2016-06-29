@@ -2,7 +2,8 @@
  * Store details of a club membership.
  * 
  * @author David J. Barnes and Michael Kölling
- * @version 2011.07.31
+ * @version 2011.07.31-----
+ * ------------------------------clase Membership, que representa a un socio.  ----------------------------------
  */
 public class Membership
 {
