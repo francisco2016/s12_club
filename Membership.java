@@ -21,17 +21,17 @@ public class Membership
      * @param year The year in which they joined.
      */
     public Membership(String name, int month, int year)
-        throws IllegalArgumentException
+    throws IllegalArgumentException
     {
-        if(month < 1 || month > 12) {
-            throw new IllegalArgumentException(
-                "Month " + month + " out of range. Must be in the range 1 ... 12");
-        }
+        //         if(month < 1 || month > 12) {
+        //             throw new IllegalArgumentException(
+        //                 "Month " + month + " out of range. Must be in the range 1 ... 12");
+        //         }
         this.name = name;
         this.month = month;
         this.year = year;
     }
-    
+
     /**
      * @return The member's name.
      */
@@ -39,7 +39,7 @@ public class Membership
     {
         return name;
     }
-    
+
     /**
      * @return The month in which the member joined.
      *         A value in the range 1 ... 12
@@ -63,7 +63,7 @@ public class Membership
     public String toString()
     {
         return "Name: " + name +
-               " joined in month " +
-               month + " of " + year;
+        " joined in month " +
+        month + " of " + year;
     }
 }
