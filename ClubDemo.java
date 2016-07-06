@@ -20,10 +20,11 @@ public class ClubDemo
     }
 
     /**
-     * Add some members to the club, and then
-     * show how many there are.
-     * Further example calls could be added if more functionality
-     * is added to the Club class.
+     * Add some members to the club, and then ----Añadir algunos miembros del club, y luego
+     * show how many there are.-------------------Muestran cuántos hay.
+     * Further example calls could be added if more functionality--Ejemplo Pide, además, se podrían añadir más funcionalidad si
+     * is added to the Club class.----- Se añade a la clase Club.
+
      */
     public void demo()
     {
